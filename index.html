@@ -9,39 +9,30 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
-
         th, td {
             text-align: center;
             vertical-align: middle;
             padding: 10px;
         }
-
         /* Example of how to customize specific columns or rows */
         .education-table .institution-column {
             width: 200px;
         }
-
         .education-table .courses-column {
             width: 150px;
         }
-
         .education-table .awards-column {
             width: 250px;
         }
-
         .job-table .title-column {
             width: 150px;
         }
-
         .job-table .description-column {
             width: 300px;
         }
-
-        /* Custom row example */
         #first-education-row {
             background-color: #f0f0f0;
         }
-
         /* Header styles */
         h1 {
             font-size: 36px; 
@@ -49,36 +40,30 @@
             font-weight: bold; 
             color: black; 
         }
-
         h2 {
             font-size: 28px; /* Set font size for H2 */
             font-family: 'Georgia', serif; /* Change font family */
             font-weight: bold; /* Adjust font weight */
             color: #282828; /* Change text color */
         }
-
         h3 {
             font-size: 28px; /* Set font size for H3 */
             font-family: 'Georgia', serif; /* Change font family */
             font-family: bold;
             color: #282828; /* Change text color */
         }
-
         h4 {
             font-size: 28px; /* Set font size for H4 */
             font-family: 'Georgia', serif; /* Change font family */
             font-family: bold;
             color: #282828; /* Change text color */
         }
-
-        /* Font styles for table content */
         table th {
             font-size: 18px; /* Font size for table headers */
             font-family: 'Times New Roman', serif; /* Font family for table headers */
             font-weight: bold; /* Make table headers bold */
             color: black; /* Change color of table headers */
         }
-
         table td {
             font-size: 14px; /* Font size for table content */
             font-family: 'Times New Roman', serif; /* Font family for table content */
@@ -99,6 +84,8 @@
         <li>Problem Solver</li>
         <li>Fast Learner</li>
         <li>Quick Thinker</li>
+        <li>Coach</li>
+        <li>Customer and speaking skills</li>
     </ul>
 
     <h3>Education</h3>
@@ -109,6 +96,11 @@
             <th class="awards-column">Awards / Credentials</th>
         </tr>
         <tr id="first-education-row">
+            <td class="instituion-column">Toronto Metropolitan University</td>
+            <td class="courses-column">CPS109, ITM618</td>
+            <td class="awards-column"></td>
+        </tr>
+        <tr id="second-education-row">
             <td class="institution-column">Pickering High School</td>
             <td class="courses-column">Calculus and Vectors</td>
             <td class="awards-column">
@@ -121,10 +113,9 @@
             </td>
         </tr>
     </table>
-
     <h4>Job Experience</h4>
     <table class="job-table">
-        <tr>
+        <tr id="first-job-row">
             <th class="company-column">Company</th>
             <th class="title-column">Title</th>
             <th class="description-column">Description</th>
@@ -132,11 +123,25 @@
             <th class="address-column">Address</th>
         </tr>
         <tr>
-            <td class="company-column">Company A</td>
-            <td class="title-column">Software Engineer</td>
-            <td class="description-column">Developed web applications and worked on backend systems.</td>
-            <td class="skills-column">Leadership, Programming</td>
-            <td class="address-column">123 Main St</td>
+            <td class="company-column">Active Telecommunications Inc</td>
+            <td class="title-column">Bookkeeper</td>
+            <td class="description-column">Track expenses, administration</td>
+            <td class="skills-column">Excel, Python, Problem solving</td>
+            <td class="address-column">70 Melford Drive</td>
+        </tr>
+        <tr id="second-job-row">
+            <td> class="company-column">Mcdonald's</td>
+            <td> class="title-column">Swing Manager</td>
+            <td> class="description-column">Manage shifts, coach and guide employees, count tills</td>
+            <td> class="skills-column">
+                <ul>
+                    <li>Working under pressure</li>
+                    <li>Coaching</li>
+                    <li>Quick thinking</li>
+                    <li>Critical thinking</li>
+                    <li>Customer and speaking skills</li>
+                </ul>
+            </td>
         </tr>
     </table>
 </body>
