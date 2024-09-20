@@ -8,11 +8,38 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+
+        /* Example of how to customize specific columns or rows */
+        .education-table .institution-column {
+            width: 200px; /* Adjust the Institution column */
+        }
+
+        .education-table .courses-column {
+            width: 150px; /* Adjust the Important Course(s) column */
+        }
+
+        .education-table .awards-column {
+            width: 250px; /* Adjust the Awards column */
+        }
+
+        .job-table .title-column {
+            width: 150px; /* Adjust the Title column */
+        }
+
+        .job-table .description-column {
+            width: 300px; /* Adjust the Description column */
+        }
+
+        /* Custom row example */
+        #first-education-row {
+            background-color: #f0f0f0; /* Background color for first education row */
+        }
     </style>
 </head>
 <body>
     <h1>Kyle Mahipat</h1>
     <p>Born October 29th, 2003, I am a 4th year student studying Business Technology Management (BComm) at Toronto Metropolitan University. I am looking to graduate in Fall 2025 with honours and a minor in Computer Science.</p>
+
     <h2>Proficiencies / Traits</h2>
     <ul>
         <li>Python</li>
@@ -23,17 +50,18 @@
         <li>Fast Learner</li>
         <li>Quick Thinker</li>
     </ul>
+
     <h3>Education</h3>
-    <table>
+    <table class="education-table">
         <tr>
-            <th>Institution</th>
-            <th>Important Course(s)</th>
-            <th>Awards / Credentials</th>
+            <th class="institution-column">Institution</th>
+            <th class="courses-column">Important Course(s)</th>
+            <th class="awards-column">Awards / Credentials</th>
         </tr>
-        <tr>
-            <td>Pickering High School</td>
-            <td>Calculus and Vectors</td>
-            <td>
+        <tr id="first-education-row">
+            <td class="institution-column">Pickering High School</td>
+            <td class="courses-column">Calculus and Vectors</td>
+            <td class="awards-column">
                 <ul>
                     <li>Honour Roll</li>
                     <li>Ontario Scholar</li>
@@ -43,15 +71,24 @@
             </td>
         </tr>
     </table>
+
     <h4>Job Experience</h4>
-    <table>
+    <table class="job-table">
         <tr>
-            <th>Company</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Skills Developed</th>
-            <th>Address</th>
+            <th class="company-column">Company</th>
+            <th class="title-column">Title</th>
+            <th class="description-column">Description</th>
+            <th class="skills-column">Skills Developed</th>
+            <th class="address-column">Address</th>
+        </tr>
+        <tr>
+            <td class="company-column">Company A</td>
+            <td class="title-column">Software Engineer</td>
+            <td class="description-column">Developed web applications and worked on backend systems.</td>
+            <td class="skills-column">Leadership, Programming</td>
+            <td class="address-column">123 Main St</td>
         </tr>
     </table>
 </body>
 </html>
+
