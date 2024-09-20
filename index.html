@@ -4,18 +4,12 @@
     <meta charset="utf-8" />
     <title>Kyle Mahipat's Web Page</title>
     <style>
-        /* Layout for the page */
-        body {
-            display: flex;
-            justify-content: flex-end; /* Align content to the right */
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Wrapper to control content layout */
-        .content-container {
-            width: 50%; /* Content takes half the screen */
+        /* Layout for the specific paragraph */
+        .bio-section {
+            width: 50%; /* Make the paragraph take half the screen */
+            margin-left: auto; /* Push it to the right */
             padding: 20px;
+            text-align: left; /* Align text inside the box to the left */
         }
 
         /* Table styles */
@@ -117,91 +111,94 @@
 </head>
 <body>
 
-    <div class="content-container">
-        <h1>Kyle Mahipat</h1>
+    <h1>Kyle Mahipat</h1>
+
+    <!-- This is the specific section you want to move to the right -->
+    <div class="bio-section">
         <p>
             Born October 29th, 2003, I am a 4th year student studying Business Technology Management (BComm) at
             Toronto Metropolitan University. I am looking to graduate in Fall 2025 with honours and a minor in
             Computer Science.
         </p>
-
-        <h2>Proficiencies / Traits</h2>
-        <ul>
-            <li>Python</li>
-            <li>Excel</li>
-            <li>Tableau</li>
-            <li>Working under pressure</li>
-            <li>Problem Solver</li>
-            <li>Fast Learner</li>
-            <li>Quick Thinker</li>
-            <li>Coach</li>
-            <li>Customer and speaking skills</li>
-        </ul>
-
-        <h3>Education</h3>
-        <table class="education-table">
-            <tr>
-                <th class="institution-column">Institution</th>
-                <th class="courses-column">Important Course(s)</th>
-                <th class="awards-column">Awards / Credentials</th>
-            </tr>
-            <tr id="first-education-row">
-                <td class="institution-column">Toronto Metropolitan University</td>
-                <td class="courses-column">CPS109, ITM618</td>
-                <td class="awards-column"></td>
-            </tr>
-            <tr id="second-education-row">
-                <td class="institution-column">Pickering High School</td>
-                <td class="courses-column">Calculus and Vectors</td>
-                <td class="awards-column">
-                    <ul>
-                        <li>Honour Roll</li>
-                        <li>Ontario Scholar</li>
-                        <li>French Award</li>
-                        <li>Spanish Studies</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-
-        <h4>Job Experience</h4>
-        <table class="job-table">
-            <tr>
-                <th class="company-column">Company</th>
-                <th class="title-column">Title</th>
-                <th class="date-column">Date</th>
-                <th class="description-column">Description</th>
-                <th class="skills-column">Skills Developed</th>
-                <th class="address-column">Address</th>
-            </tr>
-            <tr id="first-job-row">
-                <td class="company-column">Active Telecommunications Inc</td>
-                <td class="title-column">Bookkeeper</td>
-                <td class="date-column">June 2023 - Present</td>
-                <td class="description-column">Track expenses, administration</td>
-                <td class="skills-column">Excel, Python, Problem solving</td>
-                <td class="address-column">70 Melford Drive</td>
-            </tr>
-            <tr id="second-job-row">
-                <td class="company-column">Mcdonald's</td>
-                <td class="title-column">Swing Manager</td>
-                <td class="date-column">January 2022 - January 2023</td>
-                <td class="description-column">Manage shifts, coach and guide employees, count tills</td>
-                <td class="skills-column">
-                    <ul>
-                        <li>Working under pressure</li>
-                        <li>Coaching</li>
-                        <li>Quick thinking</li>
-                        <li>Critical thinking</li>
-                        <li>Customer and speaking skills</li>
-                    </ul>
-                </td>
-                <td class="address-column">1951 Ravenscroft Road</td>
-            </tr>
-        </table>
     </div>
+
+    <h2>Proficiencies / Traits</h2>
+    <ul>
+        <li>Python</li>
+        <li>Excel</li>
+        <li>Tableau</li>
+        <li>Working under pressure</li>
+        <li>Problem Solver</li>
+        <li>Fast Learner</li>
+        <li>Quick Thinker</li>
+        <li>Coach</li>
+        <li>Customer and speaking skills</li>
+    </ul>
+
+    <h3>Education</h3>
+    <table class="education-table">
+        <tr>
+            <th class="institution-column">Institution</th>
+            <th class="courses-column">Important Course(s)</th>
+            <th class="awards-column">Awards / Credentials</th>
+        </tr>
+        <tr id="first-education-row">
+            <td class="institution-column">Toronto Metropolitan University</td>
+            <td class="courses-column">CPS109, ITM618</td>
+            <td class="awards-column"></td>
+        </tr>
+        <tr id="second-education-row">
+            <td class="institution-column">Pickering High School</td>
+            <td class="courses-column">Calculus and Vectors</td>
+            <td class="awards-column">
+                <ul>
+                    <li>Honour Roll</li>
+                    <li>Ontario Scholar</li>
+                    <li>French Award</li>
+                    <li>Spanish Studies</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <h4>Job Experience</h4>
+    <table class="job-table">
+        <tr>
+            <th class="company-column">Company</th>
+            <th class="title-column">Title</th>
+            <th class="date-column">Date</th>
+            <th class="description-column">Description</th>
+            <th class="skills-column">Skills Developed</th>
+            <th class="address-column">Address</th>
+        </tr>
+        <tr id="first-job-row">
+            <td class="company-column">Active Telecommunications Inc</td>
+            <td class="title-column">Bookkeeper</td>
+            <td class="date-column">June 2023 - Present</td>
+            <td class="description-column">Track expenses, administration</td>
+            <td class="skills-column">Excel, Python, Problem solving</td>
+            <td class="address-column">70 Melford Drive</td>
+        </tr>
+        <tr id="second-job-row">
+            <td class="company-column">Mcdonald's</td>
+            <td class="title-column">Swing Manager</td>
+            <td class="date-column">January 2022 - January 2023</td>
+            <td class="description-column">Manage shifts, coach and guide employees, count tills</td>
+            <td class="skills-column">
+                <ul>
+                    <li>Working under pressure</li>
+                    <li>Coaching</li>
+                    <li>Quick thinking</li>
+                    <li>Critical thinking</li>
+                    <li>Customer and speaking skills</li>
+                </ul>
+            </td>
+            <td class="address-column">1951 Ravenscroft Road</td>
+        </tr>
+    </table>
 
 </body>
 </html>
+
 
 
