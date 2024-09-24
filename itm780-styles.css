@@ -83,21 +83,21 @@ h1 {
     font-size: 36px;
     font-family: 'Georgia', serif;
     font-weight: bold;
-    color: black;
+    color: darkred;
 }
 
 h2 {
     font-size: 28px;
     font-family: 'Georgia', serif;
     font-weight: bold;
-    color: #282828;
+    color: darkblue;
 }
 
 h3, h4 {
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Georgia', serif;
     font-weight: bold;
-    color: #282828;
+    color: darkgreen;
 }
 
 table th {
