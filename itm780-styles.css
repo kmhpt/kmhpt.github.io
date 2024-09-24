@@ -10,10 +10,6 @@
     font-size: 12pt;
 }
 
-{
-    bakground-color: lightblue; 
-}
-
 /*table settings*/
 table, th, td {
     border: 1px solid black;
