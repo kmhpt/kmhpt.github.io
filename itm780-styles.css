@@ -17,7 +17,16 @@
     font-family: Arial;
     font-size: 12pt;
 }
+.skills-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    display: flex; /* Makes the list horizontal */
+    gap: 20px; /* Adds space between the items */
+}
 
+.skills-list li {
+        display: inline; /* Make each list item inline */
+}
 /* Table settings */
 table, th, td {
     border: 1px solid black;
