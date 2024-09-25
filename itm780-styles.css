@@ -18,14 +18,13 @@
     font-size: 12pt;
 }
 .skills-list {
-    list-style-type: none; /* Remove bullets */
     padding: 0;
-    display: flex; /* Makes the list horizontal */
-    gap: 20px; /* Adds space between the items */
+    display: list-item; 
+    gap: 20px; 
 }
 
 .skills-list li {
-        display: inline; /* Make each list item inline */
+        display: inline; 
 }
 /* Table settings */
 table, th, td {
