@@ -39,6 +39,7 @@ th, td {
     text-align: center;
     font-family: Arial;
     font-size: 12pt;
+    width: 50%; 
 }
 #first-socials-row {
     font-family: 'Times New Roman', Times, serif;
