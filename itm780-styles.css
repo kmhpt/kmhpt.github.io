@@ -9,11 +9,11 @@
     font-weight: bold;
 }
 
-/* Container for bio section and socials table */
+
 .container {
     display: flex;
     justify-content: space-between; /* Distribute space between sections */
-    width: 100%; /* Full width */
+    width: 100%; 
 }
 
 /* Bio section */
