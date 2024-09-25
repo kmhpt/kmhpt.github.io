@@ -83,17 +83,24 @@ h1 {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'Georgia', serif;
     font-weight: bold;
     color: darkred;
 }
 
-h3, h4 {
-    font-size: 24px;
+h3 {
+    font-size: 28px;
     font-family: 'Georgia', serif;
     font-weight: bold;
     color: darkgreen;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: purple;
 }
 
 table th {
