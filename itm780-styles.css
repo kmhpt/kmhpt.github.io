@@ -33,18 +33,18 @@
 }
 }
 
-/* Skills List */
+/* Proficiencies List */
 .skills-list {
     padding: 0;
     display: flex; 
     list-style-type: disc; 
     justify-content: center; 
     gap: 20px; 
+    list-style-position: inside; 
 }
-
-    .skills-list li {
+.skills-list li {
         display: list-item; 
-    }
+}
 
 /* Table settings */
 table, th, td {
@@ -170,4 +170,16 @@ table td {
 
 .hyper-link:active {
     color: darkred;
+}
+.facebook-link:hover {
+    color: green;
+}
+.facebook-link:active {
+    color:darkred;
+}
+.linkedin-link:hover {
+    color:green;
+}
+.linkedin-link:active {
+    color:darkred;
 }
