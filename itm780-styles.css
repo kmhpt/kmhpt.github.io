@@ -90,10 +90,10 @@ h1 {
 }
 
 h2 {
-    font-size: 32px;
-    font-family: 'Georgia', serif;
+    font-size: 22px;
+    font-family: 'Times New Roman', serif;
     font-weight: bold;
-    color: darkred;
+    color: red;
 }
 
 h3 {
