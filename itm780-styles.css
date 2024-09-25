@@ -1,21 +1,24 @@
 ﻿body {
+    font-family: Arial, sans-serif;
+}
 
-    .title-section {
+.title-section {
     text-align: center;
-    font-family: Arial; 
+    font-family: Arial;
     font-size: 40pt;
     font-weight: bold;
 }
- /*Indent bio*/
-    .bio-section{
+
+/* Indent bio */
+.bio-section {
     margin-left: auto;
     padding: 20px;
     text-align: center;
-    font-family: Arial; 
+    font-family: Arial;
     font-size: 12pt;
 }
 
-/*table settings*/
+/* Table settings */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -28,31 +31,32 @@ table, th, td {
 
 th, td {
     vertical-align: middle;
-    padding: 10px;    text-align: center;
-
+    padding: 10px;
+    text-align: center;
 }
 
-/*Socials Table*/
+/* Socials Table */
 .socials-table {
-    margin: 20px auto;
-    padding: 20px;
+    margin: 20px auto; /* Centering the table */
     text-align: center;
     font-family: Arial;
     font-size: 12pt;
-    width: 50%; 
+    width: 50%; /* Adjust width for centering */
 }
+
 #first-socials-row {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    color: #43609C; 
+    color: #43609C;
 }
+
 #second-socials-row {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: #0A66C2;
 }
 
-/*Education table*/
+/* Education table */
 #first-education-row {
     background-color: #e0efdb;
     height: 50px;
@@ -75,7 +79,7 @@ th, td {
     width: 250px;
 }
 
-/*job experience*/
+/* Job experience */
 .job-table .title-column {
     width: 100px;
 }
@@ -98,7 +102,7 @@ th, td {
     height: 60px;
 }
 
-/*Header styles*/
+/* Header styles */
 h1 {
     font-size: 36px;
     font-family: 'Georgia', serif;
@@ -140,7 +144,6 @@ table td {
     color: black;
 }
 
-}
 .hyper-link:hover {
     color: green;
 }
