@@ -26,7 +26,15 @@ th, td {
 
 }
 
-/*Columns and rows*/
+/*Socials Table*/
+.socials-table {
+    margin-left: auto;
+    padding: 20px;
+    text-align: right;
+    font-family: Arial;
+    font-size: 12pt;
+}
+
 /*Education table*/
 #first-education-row {
     background-color: #e0efdb;
