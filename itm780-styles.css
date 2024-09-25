@@ -2,10 +2,9 @@
     /*Indent bio*/
     .bio-section
 {
-    width: 50%;
     margin-left: auto;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     font-family: Arial; 
     font-size: 12pt;
 }
