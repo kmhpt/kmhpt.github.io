@@ -1,7 +1,13 @@
 ﻿body {
-    /*Indent bio*/
-    .bio-section
-{
+
+    .title-section {
+    text-align: center;
+    font-family: Arial; 
+    font-size: 40pt;
+    font-weight: bold;
+}
+ /*Indent bio*/
+    .bio-section{
     margin-left: auto;
     padding: 20px;
     text-align: center;
@@ -128,7 +134,6 @@ table td {
     color: green;
 }
 
-/* When the link is clicked (active), change the text color to dark red */
 .hyper-link:active {
     color: darkred;
 }
