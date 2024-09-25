@@ -9,10 +9,9 @@
     font-weight: bold;
 }
 
-
 .container {
     display: flex;
-    justify-content: space-between; /* Distribute space between sections */
+    justify-content: space-between; 
     width: 100%; 
 }
 
@@ -20,33 +19,31 @@
 .bio-section {
     margin: 20px;
     padding: 20px;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
     font-family: Arial;
     font-size: 12pt;
-    flex: 1; /* Allow it to take half of the container */
+    flex: 0 0 50%; 
 }
 
 /* Socials Table */
-.socials-table {
+.socials-section {
     margin: 20px;
     text-align: center;
-    font-family: Arial;
-    font-size: 12pt;
-    width: 50%; /* Set width to half of the container */
-    flex: 1; /* Allow it to take half of the container */
+    flex: 0 0 50%; 
+}
 }
 
 /* Skills List */
 .skills-list {
     padding: 0;
-    display: flex; /* Use flexbox for horizontal layout */
-    list-style-type: disc; /* Show bullet points */
-    justify-content: center; /* Center the list */
-    gap: 20px; /* Space between items */
+    display: flex; 
+    list-style-type: disc; 
+    justify-content: center; 
+    gap: 20px; 
 }
 
     .skills-list li {
-        display: list-item; /* Each item is a list-item */
+        display: list-item; 
     }
 
 /* Table settings */
