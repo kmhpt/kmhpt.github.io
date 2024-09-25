@@ -8,7 +8,6 @@
     font-size: 40pt;
     font-weight: bold;
 }
-
 .container {
     display: flex;
     justify-content: space-between; 
@@ -31,6 +30,21 @@
     text-align: center;
     flex: 0 0 50%; 
 }
+.socials-column {
+    width: 200px;
+}
+.socials-link {
+    width: 200px; 
+}
+#first-socials-row {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #43609C;
+}
+#second-socials-row {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #0A66C2;
 }
 
 /* Proficiencies List */
@@ -63,38 +77,21 @@ th, td {
     text-align: center;
 }
 
-/* Socials Table */
-#first-socials-row {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    color: #43609C;
-}
-
-#second-socials-row {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    color: #0A66C2;
-}
-
 /* Education table */
 #first-education-row {
     background-color: #e0efdb;
     height: 50px;
 }
-
 #second-education-row {
     background-color: #f5eaea;
     height: 60px;
 }
-
 .education-table .institution-column {
     width: 200px;
 }
-
 .education-table .courses-column {
     width: 150px;
 }
-
 .education-table .awards-column {
     width: 250px;
 }
@@ -103,20 +100,16 @@ th, td {
 .job-table .title-column {
     width: 100px;
 }
-
 .job-table .company-column {
     width: 200px;
 }
-
 .job-table .description-column {
     width: 250px;
 }
-
 #first-job-row {
     background-color: #e0efdb;
     height: 60px;
 }
-
 #second-job-row {
     background-color: #f5eaea;
     height: 60px;
@@ -129,45 +122,40 @@ h1 {
     font-weight: bold;
     color: darkred;
 }
-
 h2 {
     font-size: 22px;
     font-family: 'Times New Roman', serif;
     font-weight: bold;
     color: red;
 }
-
 h3 {
     font-size: 28px;
     font-family: 'Georgia', serif;
     font-weight: bold;
     color: darkgreen;
 }
-
 h4 {
     font-size: 24px;
     font-family: 'Georgia', serif;
     font-weight: bold;
     color: purple;
 }
-
 table th {
     font-size: 15px;
     font-family: 'Times New Roman', serif;
     font-weight: bold;
     color: black;
 }
-
 table td {
     font-size: 12px;
     font-family: 'Times New Roman', serif;
     color: black;
 }
 
+/*Links*/
 .hyper-link:hover {
     color: green;
 }
-
 .hyper-link:active {
     color: darkred;
 }
