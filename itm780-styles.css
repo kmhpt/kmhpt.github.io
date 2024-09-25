@@ -34,7 +34,7 @@ th, td {
 
 /*Socials Table*/
 .socials-table {
-    margin-left: auto;
+    margin: 20px auto;
     padding: 20px;
     text-align: center;
     font-family: Arial;
