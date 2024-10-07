@@ -1,7 +1,13 @@
 ﻿body {
     font-family: Arial, sans-serif;
 }
-
+.title-name {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontal Centering */
+    align-items: center; /* Vertical Centering */
+}
 .title-section {
     text-align: center;
     font-family: Arial;
