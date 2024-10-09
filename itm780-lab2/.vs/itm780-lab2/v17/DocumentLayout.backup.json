@@ -1,7 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Ryerson Uni\\YEAR 4\\CPS209\\kmhpt\\itm780-lab2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Ryerson Uni\\YEAR 4\\Lab3\\kmhpt.github.io\\itm780-lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Ryerson Uni\\YEAR 4\\Lab3\\kmhpt.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Ryerson Uni\\YEAR 4\\Lab3\\kmhpt.github.io\\itm780-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +16,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Ryerson Uni\\YEAR 4\\Lab3\\kmhpt.github.io\\index.html",
+              "RelativeDocumentMoniker": "..\\index.html",
+              "ToolTip": "C:\\Ryerson Uni\\YEAR 4\\Lab3\\kmhpt.github.io\\index.html",
+              "RelativeToolTip": "..\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-25T20:40:29.377Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "itm780-styles.css",
+              "DocumentMoniker": "C:\\Ryerson Uni\\YEAR 4\\Lab3\\kmhpt.github.io\\itm780-styles.css",
+              "RelativeDocumentMoniker": "..\\itm780-styles.css",
+              "ToolTip": "C:\\Ryerson Uni\\YEAR 4\\Lab3\\kmhpt.github.io\\itm780-styles.css",
+              "RelativeToolTip": "..\\itm780-styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-25T20:40:39.146Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             }
           ]
         }
