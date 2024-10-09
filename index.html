@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title class="title-section">Kyle Mahipat's Web Page</title>
     <link rel="stylesheet" type="text/css" href="itm780-styles.css">
+    <script src="itm780-lab.js" defer></script>
 </head>
 <body>
     <h1 class="title-name">Kyle Mahipat</h1>
@@ -36,29 +37,6 @@
         <button type="button" id="myButton1">Click Me!</button>
         <button type="button" id="myButton2">Click Me!</button>
         <button type="button" onclick="myFunction()">Click Me!</button>
-        <script>
-            function myFunction() {
-                alert("Hello!");
-            }
-
-            document.getElementById('myButton1').addEventListener('click', function () {
-                alert('Button 1 clicked!');
-            });
-
-            document.getElementById('myButton2').addEventListener('click', function () {
-                alert('Button 2 clicked!');
-            });
-
-            document.getElementById('myButton1').addEventListener('mouseover', function () {
-                this.innerHTML = "Thank You";
-                this.style.color = "blue";
-            });
-
-            document.getElementById('myButton2').addEventListener('mouseout', function () {
-                this.innerHTML = "Mouse Over Me";
-                this.style.color = "orange";
-            });
-        </script>
     </div>
 
     </div>
@@ -105,7 +83,6 @@
             </td>
         </tr>
     </table>
-
     <h4>Job Experience</h4>
     <table class="job-table">
         <tr>
