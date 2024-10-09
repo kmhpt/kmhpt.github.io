@@ -16,8 +16,20 @@
             </p>
         </div>
         <div class="socials-section">
-            <button type="button">Click Me!</button>
-            <button type="button" id="myButton">Click Me!</button>
+            <button type="button" id="myButton1">Click Me!</button>
+            <button type="button" id="myButton2">Click Me!</button>
+            <button type="button" onclick="myFunction()">Click Me!</button>
+            <script>
+                function myFunction() {
+                    alert("Hello!");
+                }
+                document.getElementById('myButton1').addEventListener('click', function () {
+                    alert('Button 1 clicked!');
+                });
+                document.getElementById('myButton2').addEventListener('click', function () {
+                    alert('Button 2 clicked!');
+                });
+            </script>
             <table class="socials-table">
                 <tr id="first-socials-row">
                     <td class="socials-column">Facebook</td>

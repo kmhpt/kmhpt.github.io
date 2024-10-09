@@ -5,8 +5,8 @@
     height: 100%;
     margin: 0;
     display: flex;
-    justify-content: center; /* Horizontal Centering */
-    align-items: center; /* Vertical Centering */
+    justify-content: center; 
+    align-items: center; 
 }
 .title-section {
     text-align: center;
