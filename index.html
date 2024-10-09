@@ -48,11 +48,11 @@
             });
         </script>
         <script>
-            function mOver(some_tag) {
+            document.getElementById('myButton1').addEventListener('hover', function mOver(some_tag) {
                 some_tag.innerHTML = "Thank You”;
                 some_tag.style.color = “blue”;
             }
-            function mOut(element) {
+            document.getElementById('myButton2').addEventListener('hover', function mOut(element) {
                 some_tag.innerHTML = "Mouse Over Me";
                 some_tag.style.color = “orange”;
             }
