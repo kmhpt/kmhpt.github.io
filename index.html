@@ -7,15 +7,16 @@
     <script src="itm780-lab.js" defer></script>
 </head>
 <body>
+
     <div class="container">
-        <div class="bio-section">
+        <div id ="bio-section" class="bio-section">
             <p>
                 Born October 29th, 2003, I am a 4th year student studying Business Technology Management (BComm) at
                 Toronto Metropolitan University. I am looking to graduate in Fall 2025 with honours and a minor in
                 Computer Science.
             </p>
         </div>
-        <div class="socials-section">
+        <div id="socials-section" class="socials-section">
             <table class="socials-table">
                 <tr id="first-socials-row">
                     <td class="socials-column">Facebook</td>
@@ -32,6 +33,7 @@
             </table>
         </div>
     </div>
+
     <div>
         <nav>
             <a href="/apple/">apple</a>
@@ -40,7 +42,8 @@
             <a href="#cherry/">cherry</a>
         </nav>
     </div>
-    <div class="proficiencies-skills-container">
+
+    <div id ="proficiencies-section"class="proficiencies-skills-container">
         <div class="proficiencies-section">
             <h2>Proficiencies</h2>
             <ul class="proficiencies-list">
@@ -52,7 +55,7 @@
                 <li>JavaScript</li>
             </ul>
         </div>
-        <div class="skills-section">
+        <div id="skills-section"class="skills-section">
             <h3>Skills</h3>
             <ul class="skills-list">
                 <li>Working under pressure</li>
@@ -66,73 +69,78 @@
         </div>
     </div>
 
-    <h4>Education</h4>
-    <button type="button" id="myButton2">Click Me!</button>
-    <table class="education-table">
-        <tr>
-            <th class="institution-column">Institution</th>
-            <th class="courses-column">Important Course(s)</th>
-            <th class="description-column">Description</th>
-            <th class="awards-column">Awards / Credentials</th>
-        </tr>
-        <tr id="first-education-row">
-            <td class="institution-column">Toronto Metropolitan University</td>
-            <td class="courses-column">CPS109, ITM618</td>
-            <td class="description-column">Both of these courses gave me a deeper understanding of Python, and programming skills in general. CPS109 ensures efficiency, and ITM618 provides real life applications and uses for programming.</td>
-            <td class="awards-column">
-                <a href="https://trsmcredentials.torontomu.ca/profile/kylemahipat/wallet" class="hyper-link">View Credentials</a>
-            </td>
-        </tr>
-        <tr id="second-education-row">
-            <td class="institution-column">Pickering High School</td>
-            <td class="courses-column">Calculus and Vectors</td>
-            <td class="description-column">A difficult course at the time and provided a refreshing challenge. Learned mathematical concepts that I use and come across often.</td>
-            <td class="awards-column">
-                <ul>
-                    <li>Honour Roll</li>
-                    <li>Ontario Scholar</li>
-                    <li>French Award</li>
-                    <li>Spanish Studies</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-
-    <h5>Job Experience</h5>
-    <button type="button" onclick="myFunction()">Click Me!</button>
-    <table class="job-table">
-        <tr>
-            <th class="company-column">Company</th>
-            <th class="title-column">Title</th>
-            <th class="date-column">Date</th>
-            <th class="description-column">Description</th>
-            <th class="skills-column">Skills Developed</th>
-            <th class="address-column">Address</th>
-        </tr>
-        <tr id="first-job-row">
-            <td class="company-column">Active Telecommunications Inc</td>
-            <td class="title-column">Bookkeeper</td>
-            <td class="date-column">June 2023 - Present</td>
-            <td class="description-column">Track expenses, administration</td>
-            <td class="skills-column">Excel, Python, Problem solving</td>
-            <td class="address-column">70 Melford Drive</td>
-        </tr>
-        <tr id="second-job-row">
-            <td class="company-column">McDonald's</td>
-            <td class="title-column">Swing Manager</td>
-            <td class="date-column">January 2022 - January 2023</td>
-            <td class="description-column">Manage shifts, coach and guide employees, count tills</td>
-            <td class="skills-column">
-                <ul>
-                    <li>Working under pressure</li>
-                    <li>Coaching</li>
-                    <li>Quick thinking</li>
-                    <li>Critical thinking</li>
-                    <li>Customer and speaking skills</li>
-                </ul>
-            </td>
-            <td class="address-column">1951 Ravenscroft Road</td>
-        </tr>
-    </table>
+    <div id="education-section">
+        <h4>Education</h4>
+        <button type="button" id="myButton2">Click Me!</button>
+        <table class="education-table">
+            <tr>
+                <th class="institution-column">Institution</th>
+                <th class="courses-column">Important Course(s)</th>
+                <th class="description-column">Description</th>
+                <th class="awards-column">Awards / Credentials</th>
+            </tr>
+            <tr id="first-education-row">
+                <td class="institution-column">Toronto Metropolitan University</td>
+                <td class="courses-column">CPS109, ITM618</td>
+                <td class="description-column">Both of these courses gave me a deeper understanding of Python, and programming skills in general. CPS109 ensures efficiency, and ITM618 provides real life applications and uses for programming.</td>
+                <td class="awards-column">
+                    <a href="https://trsmcredentials.torontomu.ca/profile/kylemahipat/wallet" class="hyper-link">View Credentials</a>
+                </td>
+            </tr>
+            <tr id="second-education-row">
+                <td class="institution-column">Pickering High School</td>
+                <td class="courses-column">Calculus and Vectors</td>
+                <td class="description-column">A difficult course at the time and provided a refreshing challenge. Learned mathematical concepts that I use and come across often.</td>
+                <td class="awards-column">
+                    <ul>
+                        <li>Honour Roll</li>
+                        <li>Ontario Scholar</li>
+                        <li>French Award</li>
+                        <li>Spanish Studies</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+   
+    <div id="job-section">
+        <h5>Job Experience</h5>
+        <button type="button" onclick="myFunction()">Click Me!</button>
+        <table class="job-table">
+            <tr>
+                <th class="company-column">Company</th>
+                <th class="title-column">Title</th>
+                <th class="date-column">Date</th>
+                <th class="description-column">Description</th>
+                <th class="skills-column">Skills Developed</th>
+                <th class="address-column">Address</th>
+            </tr>
+            <tr id="first-job-row">
+                <td class="company-column">Active Telecommunications Inc</td>
+                <td class="title-column">Bookkeeper</td>
+                <td class="date-column">June 2023 - Present</td>
+                <td class="description-column">Track expenses, administration</td>
+                <td class="skills-column">Excel, Python, Problem solving</td>
+                <td class="address-column">70 Melford Drive</td>
+            </tr>
+            <tr id="second-job-row">
+                <td class="company-column">McDonald's</td>
+                <td class="title-column">Swing Manager</td>
+                <td class="date-column">January 2022 - January 2023</td>
+                <td class="description-column">Manage shifts, coach and guide employees, count tills</td>
+                <td class="skills-column">
+                    <ul>
+                        <li>Working under pressure</li>
+                        <li>Coaching</li>
+                        <li>Quick thinking</li>
+                        <li>Critical thinking</li>
+                        <li>Customer and speaking skills</li>
+                    </ul>
+                </td>
+                <td class="address-column">1951 Ravenscroft Road</td>
+            </tr>
+        </table>
+    </div>
+  
 </body>
 </html>
