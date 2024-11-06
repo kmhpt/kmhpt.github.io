@@ -16,7 +16,7 @@
 }
 
 /* Headers - unified styles for all headers */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-size: 28px;
     font-family: 'Georgia', serif;
     font-weight: bold;
