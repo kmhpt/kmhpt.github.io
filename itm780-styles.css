@@ -5,18 +5,16 @@
 
 /* Title styles */
 .title-name {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 28px;
-    font-family: Georgia, serif;
+    font-size: 36px;
+    font-family: 'Georgia', serif;
     font-weight: bold;
-    color: black;
+    color: darkred;
+    margin: 20px 0; /* Reduces the space around the heading */
+    text-align: left; /* Aligns text to the left */
 }
 
 /* Headers - unified styles for all headers */
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     font-size: 28px;
     font-family: 'Georgia', serif;
     font-weight: bold;
