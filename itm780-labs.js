@@ -23,17 +23,20 @@ document.getElementById('myButton2').addEventListener('mouseout', function () {
 
 //menu bar//
 document.addEventListener("DOMContentLoaded", function () {
-    // Hide all sections except the first one (optional)
-    const sections = document.querySelectorAll(".bio-section, .proficiencies-skills-container, .job-experience");
+    // Hide all sections initially
+    const sections = document.querySelectorAll(".bio-section, .socials-section, .proficiencies-skills-container, #education-section, #job-section");
     sections.forEach(section => section.style.display = "none");
 
-    // Function to display a section based on the id
-    function showSection(sectionId) {
+    // Function to display specific sections based on IDs
+    function showSection(...sectionIds) {
         // Hide all sections
         sections.forEach(section => section.style.display = "none");
 
-        // Display the selected section
-        document.getElementById(sectionId).style.display = "block";
+        // Display only the selected sections
+        sectionIds.forEach(id => {
+            const section = document.getElementById(id) || document.querySelector(`.${id}`);
+            if (section) section.style.display = "block";
+        });
     }
 
     // Add event listeners to nav links
@@ -41,14 +44,15 @@ document.addEventListener("DOMContentLoaded", function () {
         if (event.target.tagName === "A") {
             event.preventDefault();
             const sectionIdMap = {
-                "apple": "job-experience",
-                "mango": "bio-section",
-                "orange": "proficiencies-skills-container",
-                // Add more mappings if needed
+                "apple": ["bio-section"],
+                "mango": ["proficiencies-section", "skills-section"],
+                "orange": ["education-section", "job-section"],
+                "cherry": ["socials-section"]
             };
-            const sectionId = sectionIdMap[event.target.getAttribute("href").replace("/", "")];
-            if (sectionId) {
-                showSection(sectionId);
+            const href = event.target.getAttribute("href").replace("#", "").replace("/", "");
+            const sectionIds = sectionIdMap[href];
+            if (sectionIds) {
+                showSection(...sectionIds);
             }
         }
     });
