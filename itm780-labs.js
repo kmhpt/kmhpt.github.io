@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "orange": ["education-section", "job-section"],
                 "cherry": ["socials-section"]
             };
-            const href = event.target.getAttribute("href").replace("#", "").replace("/", "");
+            const href = event.target.getAttribute("href").replace("#", "");
             const sectionIds = sectionIdMap[href];
             if (sectionIds) {
                 showSection(...sectionIds);
@@ -57,3 +57,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
