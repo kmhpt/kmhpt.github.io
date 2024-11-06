@@ -177,3 +177,8 @@ nav {
     padding: 20px;
     box-sizing: border-box;
 }
+
+/*Menu Bar Functions*/
+.bio-section, .proficiencies-section, .skills-section, .job-experience {
+    display: none;
+}
