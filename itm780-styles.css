@@ -54,18 +54,31 @@
 }
 
 /* Proficiencies List */
-.skills-list {
-    padding: 0;
-    display: flex; 
-    list-style-type: disc; 
-    justify-content: center; 
-    gap: 20px; 
-    list-style-position: inside;
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 16px; 
+.proficiencies-skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 800px;
 }
-.skills-list li {
-        display: list-item; 
+
+.proficiencies-section, .skills-section {
+    width: 45%;
+}
+
+    .proficiencies-section h3, .skills-section h3 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-family: 'Georgia', serif;
+        color: darkgreen;
+    }
+
+.proficiencies-list, .skills-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
 }
 
 /* Table settings */
@@ -179,3 +192,25 @@ table td {
 .linkedin-link:active {
     color:darkred;
 }
+
+body, html {
+    height: 100%;
+}
+
+nav {
+    background-color: #f79F79;
+    position: absolute;
+    width: 150px;
+    height: 100%;
+}
+
+    nav a {
+        padding: 15px;
+        display: block;
+        font-size: 25pt;
+        color: #58355E;
+    }
+
+        nav a:hover {
+            color: #f1f1f1;
+        }
