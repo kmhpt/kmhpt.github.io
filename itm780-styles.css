@@ -118,7 +118,17 @@ th, td {
 .education-table .awards-column {
     width: 250px;
 }
+.job-table td, .education-table td {
+    font-family: 'Times New Roman', serif;
+    font-size: 12pt;
+}
 
+/* Table headers in Job Experience and Education */
+.job-table th, .education-table th {
+    font-family: 'Times New Roman', serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
 /* Job experience */
 .job-table .title-column {
     width: 100px;
