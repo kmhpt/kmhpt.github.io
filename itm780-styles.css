@@ -1,86 +1,102 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    background-color: lightgoldenrodyellow
+    background-color: lightgoldenrodyellow;
 }
+
 .title-name {
     height: 100%;
     margin: 0;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
+
 .title-section {
     text-align: center;
     font-family: Arial;
     font-size: 40pt;
     font-weight: bold;
 }
+
 .container {
     display: flex;
-    justify-content: space-between; 
-    width: 100%; 
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* Bio section */
 .bio-section {
     margin: 20px;
     padding: 20px;
-    text-align: left; 
+    text-align: left;
     font-family: Arial;
     font-size: 12pt;
-    flex: 0 0 50%; 
+    flex: 0 0 50%;
 }
 
 /* Socials Table */
 .socials-section {
     margin: 20px;
     text-align: center;
-    flex: 0 0 50%; 
+    flex: 0 0 50%;
 }
+
 .socials-column {
     width: 200px;
 }
+
 .socials-link {
-    width: 200px; 
+    width: 200px;
 }
+
 #first-socials-row {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: #43609C;
 }
+
 #second-socials-row {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: #0A66C2;
 }
 
-/* Proficiencies List */
+/* Proficiencies and Skills */
 .proficiencies-skills-container {
     display: flex;
     justify-content: space-around;
+    gap: 20px; /* Added spacing between sections */
     margin: 20px auto;
     max-width: 800px;
 }
 
 .proficiencies-section, .skills-section {
     width: 45%;
+    padding: 15px;
 }
 
     .proficiencies-section h3, .skills-section h3 {
         text-align: center;
         margin-bottom: 10px;
-        font-size: 24px;
+        font-size: 28px;
         font-family: 'Georgia', serif;
-        color: darkgreen;
+        font-weight: bold;
+        color: black;
     }
 
 .proficiencies-list, .skills-list {
-    list-style-type: none;
+    list-style-type: disc;
+    list-style-position: inside;
     padding: 0;
-    text-align: center;
+    text-align: left;
     font-family: 'Times New Roman', serif;
     font-size: 16px;
+    margin: 10px 0;
 }
+
+    .proficiencies-list li, .skills-list li {
+        margin-bottom: 10px; /* Added space between items */
+    }
 
 /* Table settings */
 table, th, td {
@@ -91,6 +107,9 @@ table, th, td {
     table th {
         background-color: #f0f0f0;
         color: black;
+        font-size: 15px;
+        font-family: 'Times New Roman', serif;
+        font-weight: bold;
     }
 
 th, td {
@@ -99,21 +118,31 @@ th, td {
     text-align: center;
 }
 
+table td {
+    font-size: 12px;
+    font-family: 'Times New Roman', serif;
+    color: black;
+}
+
 /* Education table */
 #first-education-row {
     background-color: #e0efdb;
     height: 50px;
 }
+
 #second-education-row {
     background-color: #f5eaea;
     height: 60px;
 }
+
 .education-table .institution-column {
     width: 200px;
 }
+
 .education-table .courses-column {
     width: 150px;
 }
+
 .education-table .awards-column {
     width: 250px;
 }
@@ -122,82 +151,47 @@ th, td {
 .job-table .title-column {
     width: 100px;
 }
+
 .job-table .company-column {
     width: 200px;
 }
+
 .job-table .description-column {
     width: 250px;
 }
+
 #first-job-row {
     background-color: #e0efdb;
     height: 60px;
 }
+
 #second-job-row {
     background-color: #f5eaea;
     height: 60px;
 }
 
 /* Header styles */
-h1 {
-    font-size: 36px;
+h1, h2, h3, h4 {
+    font-size: 28px; /* All headers same size */
     font-family: 'Georgia', serif;
     font-weight: bold;
-    color: darkred;
-}
-h2 {
-    font-size: 22px;
-    font-family: 'Times New Roman', serif;
-    font-weight: bold;
-    color: red;
-}
-h3 {
-    font-size: 28px;
-    font-family: 'Georgia', serif;
-    font-weight: bold;
-    color: darkgreen;
-}
-h4 {
-    font-size: 24px;
-    font-family: 'Georgia', serif;
-    font-weight: bold;
-    color: purple;
-}
-table th {
-    font-size: 15px;
-    font-family: 'Times New Roman', serif;
-    font-weight: bold;
-    color: black;
-}
-table td {
-    font-size: 12px;
-    font-family: 'Times New Roman', serif;
     color: black;
 }
 
-/*Links*/
-.hyper-link:hover {
+/* Links */
+.hyper-link:hover, .facebook-link:hover, .linkedin-link:hover {
     color: green;
 }
-.hyper-link:active {
+
+.hyper-link:active, .facebook-link:active, .linkedin-link:active {
     color: darkred;
-}
-.facebook-link:hover {
-    color: green;
-}
-.facebook-link:active {
-    color:darkred;
-}
-.linkedin-link:hover {
-    color:green;
-}
-.linkedin-link:active {
-    color:darkred;
 }
 
 body, html {
     height: 100%;
 }
 
+/* Navigation Menu */
 nav {
     background-color: #f79F79;
     position: absolute;
@@ -206,9 +200,9 @@ nav {
 }
 
     nav a {
-        padding: 15px;
+        padding: 10px; /* Reduced padding */
         display: block;
-        font-size: 25pt;
+        font-size: 18px; /* Adjusted font size */
         color: #58355E;
     }
 
