@@ -110,6 +110,7 @@ th, td {
 .education-table .awards-column {
     width: 250px;
 }
+
 .job-table td, .education-table td {
     font-family: 'Times New Roman', serif;
     font-size: 12pt;
@@ -121,6 +122,7 @@ th, td {
     font-size: 12pt;
     font-weight: bold;
 }
+
 /* Job experience */
 .job-table .title-column {
     width: 100px;
@@ -178,7 +180,7 @@ nav {
     box-sizing: border-box;
 }
 
-/*Menu Bar Functions*/
+/* Sections to display/hide with JavaScript */
 .bio-section, .proficiencies-section, .skills-section, .job-experience {
     display: none;
 }

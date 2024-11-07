@@ -39,6 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    // Show bio-section by default (for "apple")
+    showSection("bio-section");
+
     // Add event listeners to nav links
     document.querySelector("nav").addEventListener("click", function (event) {
         if (event.target.tagName === "A") {
@@ -57,4 +60,5 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
 
